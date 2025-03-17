@@ -1,0 +1,287 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+936
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74168
+# storage
+db|DENG.(1).cnf
+db|DENG.(1).cnf
+# case_insensitive
+# source_file
+c:|altera|91sp2|quartus|libraries|others|maxplus2|74168.bdf
+ddc82fd96e1d653023c0e3ed9f9aee61
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+M60:inst2|74168:inst1
+M60:inst2|74168:inst
+M60:inst1|74168:inst1
+M60:inst1|74168:inst
+}
+# macro_sequence
+
+# end
+# entity
+74139
+# storage
+db|DENG.(4).cnf
+db|DENG.(4).cnf
+# case_insensitive
+# source_file
+c:|altera|91sp2|quartus|libraries|others|maxplus2|74139.bdf
+bb8df66cee26b15926ec8c721a642d7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+control:inst|74139:inst2
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|DENG.(5).cnf
+db|DENG.(5).cnf
+# case_insensitive
+# source_file
+c:|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QB
+-1
+3
+QA
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+CLRN
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+f74161
+# storage
+db|DENG.(6).cnf
+db|DENG.(6).cnf
+# case_insensitive
+# source_file
+c:|altera|91sp2|quartus|libraries|others|maxplus2|f74161.bdf
+7336e83179d5c5b17228174483d7f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+control:inst|74161:inst|f74161:sub
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|DENG.(7).cnf
+db|DENG.(7).cnf
+# case_insensitive
+# source_file
+c:|altera|91sp2|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+QA
+-1
+3
+LDN
+-1
+3
+ENT
+-1
+3
+ENP
+-1
+3
+CLK
+-1
+3
+D
+-1
+1
+C
+-1
+1
+B
+-1
+1
+A
+-1
+1
+CLRN
+-1
+2
+}
+# hierarchies {
+control:inst|74161:inst
+}
+# macro_sequence
+
+# end
+# entity
+M60
+# storage
+db|DENG.(2).cnf
+db|DENG.(2).cnf
+# case_insensitive
+# source_file
+m60.bdf
+a98e31e0fda7f844b5ae14b47764b065
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+M60:inst2
+M60:inst1
+}
+# macro_sequence
+
+# end
+# entity
+control
+# storage
+db|DENG.(3).cnf
+db|DENG.(3).cnf
+# case_insensitive
+# source_file
+control.bdf
+f3a1e393fc82d7a387b06845248f7b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+control:inst
+}
+# macro_sequence
+
+# end
+# entity
+LIGHT
+# storage
+db|DENG.(0).cnf
+db|DENG.(0).cnf
+# case_insensitive
+# source_file
+light.bdf
+3f4fa11210e199d09ef44845c0bc3a9e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

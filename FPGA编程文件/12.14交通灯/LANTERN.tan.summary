@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.994 ns
+From           : count4:inst|7474:inst11|10
+To             : sr
+From Clock     : clocktotal
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clocktotal'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 136.28 MHz ( period = 7.338 ns )
+From           : counter3:inst8|74168:inst1|29
+To             : count4:inst|74161:inst|f74161:sub|9
+From Clock     : clocktotal
+To Clock       : clocktotal
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clocktotal'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : count4:inst|74161:inst|f74161:sub|87
+To             : count4:inst|7474:inst11|10
+From Clock     : clocktotal
+To Clock       : clocktotal
+Failed Paths   : 5
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 5
+
+--------------------------------------------------------------------------------------
+
